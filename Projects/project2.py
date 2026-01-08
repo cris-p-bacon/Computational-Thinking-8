@@ -60,8 +60,8 @@ print (f"Your score is {extrovert_points} extrovert, {introvert_points} introver
 
 # End: determine result
 if extrovert_points >= introvert_points and extrovert_points >= omnivert_points:
-    print("You are an Extrovert!!!")
+    print("You are an Extrovert!!")
 elif introvert_points >= omnivert_points and introvert_points >= extrovert_points:
-    print("You are an Introvert!!!")
+    print("You are an Introvert!!")
 elif omnivert_points >= extrovert_points and omnivert_points >= introvert_points:
-    print("You are an Omnivert!!!")
+    print("You are an Omnivert!!")
